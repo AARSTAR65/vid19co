@@ -48,7 +48,15 @@ class App extends Component {
   render() {
     return (
       <>
-        <div style={{ fontFamily: "Segoe UI" }}>
+        <div
+          style={{
+            fontFamily: "Segoe UI",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexDirection: "column",
+          }}
+        >
           <div
             style={{
               borderRadius: 5,
